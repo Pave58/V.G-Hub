@@ -1,4 +1,15 @@
 local Players = game:GetService("Players")
+
+local VirtualUser = VirtualUser
+Player.Idled:connect(
+    function()
+        VirtualUser:ClickButton2(Vector2.new())
+    end
+)
+
+for i,v in pairs(getconnections(Player.Idled)) do
+    v:Disable()
+end
 repeat wait() until Player.PlayerGui:FindFirstChild("PlayButton",true)
 RunService.Stepped:Connect(function()
     pcall(function()
