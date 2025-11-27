@@ -1,11 +1,11 @@
 repeat task.wait() until game:IsLoaded()
 if KeySystem then
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/1201for/V.G-Hub/main/Extras/Key"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Pave58/V.G-Hub/main/Extras/Key"))()
 end
 local StartTime = tick()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/1201for/V.G-Hub/main/Extras/Functions"))()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/1201for/V.G-Hub/main/Extras/Anti-Cheat"))()
-local A = loadstring(game:HttpGet("https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.G-Hub-Games-List"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Pave58/V.G-Hub/main/Extras/Functions"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Pave58/V.G-Hub/main/Extras/Anti-Cheat"))()
+local A = loadstring(game:HttpGet("https://raw.githubusercontent.com/Pave58/V.G-Hub/main/V.G-Hub-Games-List"))()
 
 local BlurEffect = Instance.new("BlurEffect")
 BlurEffect.Parent = Lighting

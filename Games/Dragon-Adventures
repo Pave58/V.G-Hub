@@ -259,7 +259,7 @@ Players.PlayerAdded:Connect(function(v)
 end)
 
 local repo = 'https://raw.githubusercontent.com/wally-rblx/LinoriaLib/main/'
-local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/1201for/V.G-Hub/main/GUI/PlayerLIB"))()
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Pave58/V.G-Hub/main/GUI/PlayerLIB"))()
 local ThemeManager = loadstring(game:HttpGet(repo .. 'addons/ThemeManager.lua'))()
 local SaveManager = loadstring(game:HttpGet(repo .. 'addons/SaveManager.lua'))()
 local Window = Library:CreateWindow({
@@ -617,7 +617,7 @@ Options.e3333:OnChanged(function(String)
     Type = Options.e3333.Value
 end)
  
-local ESP = loadstring(game:HttpGet("https://raw.githubusercontent.com/1201for/V.G-Hub/main/Karrot-Esp"))()
+local ESP = loadstring(game:HttpGet("https://raw.githubusercontent.com/Pave58/V.G-Hub/main/Karrot-Esp"))()
 LeftGroupBox2:AddToggle('ESP1', {Text = 'Esp Toggle', Default = false,Tooltip = '', Callback = function(A)
     ESP:Toggle(A)
 end})
